@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-image: url(assets/images/fundo_header.png);
+    background-size: cover;/*Pra distribuir a imagem na div toda*/
+    height: 560px;
+}
+
+#menu {
+
+    padding: 60px;
+}
+
+#titulo {
+    color: white;
+    padding-left: 170px; /*Empurrando o conteúdo para a esquerda*/
+    padding-top: 50px; /*Empurrando o conteudo para baixo com a margem interna*/
+    width: 530px; /*Dminuindo o espaço da div para ficar mais a esquerda*/
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column; /*Navegador vai dividir em colunas*/
+    grid-auto-columns: 1fr; /*Medida, cada coluna vai ser dimecionada em frama*/
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+#lista1 {
+    background-color: #EAECE5;
+  
+    
+}
+
+#lista1 ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 67.11px;
+    padding-bottom: 68.16px;
+    font-family: 'Inter';
+    font-size: 15px;
+    width: 400;
+    line-height: 30px;
+    color: #122235;
+    
+}
+
+#lista1 li{
+    display: flex;
+    align-items: center;
+    
+}
+
+#lista1 ul img{
+    padding: 17.5px;
+    
+}
+
+
+#principalText {
+    text-align: start;
+}
+
+#principalText h1{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #247BA0;
+}
+
+#principalText h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+#infoText{
+    padding-top: 80px;
+    align-items: center;
+    text-align: center;
+    background: #247BA0;
+}
+
+#infoText h1{
+    padding-bottom: 50px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #EAECE5;
+}
+
+#infoText img{
+    padding: 15px;
+    border-radius: 16px;
+    padding-bottom: 50px;
+}
+
+footer{
+    padding-top: 35px;
+    text-align: center;
+    background: #EAECE5;
+}
+
+footer h1{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+footer button{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #247BA0;
+    border-radius: 8px; 
+    border-color: #247BA0;
+    width: 335px;
+    height: 56px;
+}
